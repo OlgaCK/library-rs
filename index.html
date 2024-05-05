@@ -5,8 +5,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <p>Brooklyn Public Library</p>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">Coffee shop</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Library Card</a></li>
+            </ul>
+        </nav>
+        <div class="pfofile"><a href="#">profile logo</a></div>
+    </header>
+    <main>
+        <section class="welcome">
+            <h1>Welcome to the Brooklyn Library</h1>
+        </section>
+        <section class="about">
+            <h2>About</h2>
+            <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
+            <img class="gallery" src="img/image 1.jpg" alt="pic">
+            <img class="gallery" src="img/image 2.jpg" alt="pic">
+            <img class="gallery" src="img/image 3.jpg" alt="pic">
+        </section>
+        <section class="favorites">
+            <h2>Favorites</h2>
+            <form>
+                <p>Pick favorites of season</p>
+                <p><input name="season" type="radio" value="winter"><label for="winter">Winter</label></p>
+                <p><input name="season" type="radio" value="spring"><label for="spring">Spring</label></p>
+                <p><input name="season" type="radio" value="summer"><label for="summer">Summer</label></p>
+                <p><input name="season" type="radio" value="autumn"><label for="autumn">Autumn</label></p>
+            </form>
+            <div class="book">
+                <p class="pics">Staff Picks</p>
+                <div class="nameandauthor">
+                    <p class="bookname">The Book Eaters</p>
+                    <p class="author">By Sunyi Dean</p>
+                </div>
+                <p class="bookdescription">An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.</p>
+                <button class="buy">Buy</button>
+                <img src="img/book.jpg" alt="book">
+            </div>
+            <div class="book">
+                <p class="pics">Staff Picks</p>
+                <div class="nameandauthor">
+                    <p class="bookname">Cackle</p>
+                    <p class="author">By Rachel Harrison</p>
+                </div>
+                <p class="bookdescription">Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.</p>
+                <button class="buy">Buy</button>
+                <img src="img/book2.jpg" alt="book">
+            </div>
+            <div class="book">
+                <p class="pics">Staff Picks</p>
+                <div class="nameandauthor">
+                    <p class="bookname">Dante: Poet of the Secular World</p>
+                    <p class="author">By Erich Auerbach</p>
+                </div>
+                <p class="bookdescription">Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.</p>
+                <button class="buy">Buy</button>
+                <img src="img/book3.jpg" alt="book">
+            </div>
+            <div class="book">
+                <p class="pics">Staff Picks</p>
+                <div class="nameandauthor">
+                    <p class="bookname">The Last Queen</p>
+                    <p class="author">By Clive Irving</p>
+                </div>
+                <p class="bookdescription">A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
+                <button class="buy">Own</button>
+                <img src="img/book4.jpg" alt="book">
+            </div>
+        </section>
+        <section class="coffeshop">
+            <h2>Coffee shop</h2>
+            <p>In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. 
+                you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.</p>
+                <table class="menu">
+                    <tr>
+                        <th>Coffee & Tea</th>
+                        <th>Desserts & Cakes</th>
+                    </tr>
+                    <tr>
+                        <td>Cold Brew Coffee - $3</td>
+                        <td>Forest Gateau - $16</td>
+                    </tr>
+                    <tr>
+                        <td>French Press Pot - $5</td>
+                        <td>Blue Moon - $16</td>
+                    </tr>
+                    <tr>
+                        <td>Espresso - $2</td>
+                        <td>Truffle Cake - $15</td>
+                    </tr>
+                    <tr>
+                        <td>Cappuccino - $4</td>
+                        <td>Chocolate Cake - $18</td>
+                    </tr>
+                    <tr>
+                        <td>Hot tea - $2</td>
+                        <td>Poet’s Dream Cake - $16</td>
+                    </tr>
+                    <tr>
+                        <td>Cold tea - $2</td>
+                        <td>Pineapple Cake - $14</td>
+                    </tr>
+                </table>
+        </section>
+        <section class="contacts">
+            <h2>Our Contacts</h2>
+            <div class="contact-info">
+                <div class="tell">
+                    <p>For all Library inquiries:</p>
+                    <p>Please call (617) 730-2370</p>
+                    <p>For TTY service, please call (617) 730-2370</p>
+                    <p>Putterham Library: (617) 730-2385</p>
+                    <p>Senior Staff</p>
+                    <p>Library Director: Amanda Hirst</p>
+                </div>
+                <div class="map">
+                    <img src="img/map.jpg" alt="map" class="map">
+                </div>
+            </div>
+        </section>
+        <section class="cards">
+            <h2>Digital Library Cards</h2>
+            <div class="findcard">
+                <p>Brooklyn Public Library</p>
+                <form>
+                    <input type="text" placeholder="Reader's name">
+                    <input type="text" placeholder="Card number">
+                    <button>Check the card</button>
+                </form>
+            </div>
+            <div class="login">
+                <p>Get a reader card</p>
+                <p>You will be able to see a reader card after logging into account or you can register a new account</p>
+                <div>
+                    <form>
+                        <button>Sign Up</button>
+                        <button>Log in</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="adress">286 Cadman Plaza, New York, NY 11238, United States</div>
+        <ul class="social">
+            <li><a href="#">twitter</a></li>
+            <li><a href="#">IG</a></li>
+            <li><a href="#">FB</a></li>
+        </ul>
+        <div class="sheddule">Mon - Fri
+            08:00 am - 07:00 pm
+            Sat - Sun
+            10:00 am - 06:00 pm</div>
+            <div class="credits">
+                <p>2024</p>
+                <p>The Rolling Scopes School</p>
+                <p>olgack</p>
+            </div>
+    </footer>
 </body>
 </html>
