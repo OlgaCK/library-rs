@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>Brooklyn Public Library</title>
+    <link rel="icon" type="image/png" href="/img/favicon.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
@@ -36,7 +37,7 @@
             <h2>Favorites</h2>
             <form>
                 <p>Pick favorites of season</p>
-                <p><input name="season" type="radio" value="winter"><label for="winter">Winter</label></p>
+                <p><input checked name="season" type="radio" value="winter"><label for="winter">Winter</label></p>
                 <p><input name="season" type="radio" value="spring"><label for="spring">Spring</label></p>
                 <p><input name="season" type="radio" value="summer"><label for="summer">Summer</label></p>
                 <p><input name="season" type="radio" value="autumn"><label for="autumn">Autumn</label></p>
@@ -78,7 +79,7 @@
                     <p class="author">By Clive Irving</p>
                 </div>
                 <p class="bookdescription">A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
-                <button class="buy">Own</button>
+                <button disabled class="buy">Own</button>
                 <img src="img/book4.jpg" alt="book">
             </div>
         </section>
@@ -122,11 +123,11 @@
             <div class="contact-info">
                 <div class="tell">
                     <p>For all Library inquiries:</p>
-                    <p>Please call (617) 730-2370</p>
-                    <p>For TTY service, please call (617) 730-2370</p>
-                    <p>Putterham Library: (617) 730-2385</p>
+                    <p>Please call <a href="tel:(617) 730-2370">(617) 730-2370</a></p>
+                    <p>For TTY service, please call <a href="tel:(617) 730-2370">(617) 730-2370</a></p>
+                    <p>Putterham Library: <a href="tel:(617) 730-2385">(617) 730-2385</a></p>
                     <p>Senior Staff</p>
-                    <p>Library Director: Amanda Hirst</p>
+                    <p>Library Director: <a href="mailto:AmandaHirst@example.com">Amanda Hirst</a></p>
                 </div>
                 <div class="map">
                     <img src="img/map.jpg" alt="map" class="map">
